@@ -6,35 +6,35 @@ const blogData = [
   { 
     id: 1, 
     title: 'How AI is Transforming Retail', 
-    summary: 'Discover how artificial intelligence is revolutionizing the retail industry, from personalized shopping to inventory management.', 
+    summary: '', 
     category: 'Retail',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
   { 
     id: 2, 
     title: 'AI in Healthcare: Opportunities & Challenges', 
-    summary: 'Explore the impact of AI on healthcare, including diagnostics, patient care, and operational efficiency.', 
+    summary: '', 
     category: 'Healthcare',
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
   { 
     id: 3, 
     title: 'Finance Gets Smarter with AI', 
-    summary: 'Learn how AI is driving innovation in the finance sector, from fraud detection to customer service.', 
+    summary: '', 
     category: 'Finance',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
   { 
     id: 4, 
     title: 'AI for Small Businesses', 
-    summary: 'See how small businesses can leverage AI tools to compete with larger enterprises.', 
+    summary: '', 
     category: 'Business',
     image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
   { 
     id: 5, 
     title: 'AI and Education: The Future of Learning', 
-    summary: 'How AI is personalizing education and improving outcomes for students and teachers.', 
+    summary: '', 
     category: 'Education',
     image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80'
   },

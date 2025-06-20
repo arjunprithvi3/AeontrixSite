@@ -13,21 +13,21 @@ const blogData = [
   {
     id: 2,
     title: 'AI in Healthcare: Opportunities & Challenges',
-    summary: 'Explore the impact of AI on healthcare, including diagnostics, patient care, and operational efficiency.',
+    summary: '',
     category: 'Healthcare',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
   {
     id: 3,
     title: 'Finance Gets Smarter with AI',
-    summary: 'Learn how AI is driving innovation in the finance sector, from fraud detection to customer service.',
+    summary: '',
     category: 'Finance',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
   {
     id: 4,
     title: 'AI for Small Businesses',
-    summary: 'See how small businesses can leverage AI tools to compete with larger enterprises.',
+    summary: '',
     category: 'Business',
     image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
   },
