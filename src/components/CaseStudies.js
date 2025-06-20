@@ -29,9 +29,16 @@ const CaseStudies = () => {
                 border: '1px solid #e0e0e0',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.1)'
               }}>
-                <div style={{ backgroundColor: '#343a40', padding: '70px', color: 'white' }}>
+                 <Card.Img
+                  variant="top"
+                  src=""
+                  alt="Retail Case Study"
+                  style={{ height: '250px', objectFit: 'cover',color:'black' }}
+                />
+                {/* <div style={{ backgroundColor: '#343a40', padding: '70px', color: 'white' }}>
                   <h5>Retail Case Study</h5>
-                </div>
+                </div> */}
+                
                 <Card.Body>
                   <Badge bg="light" text="dark" className="mb-2" style={{marginRight:'350px'}}>Retail</Badge>
                   <Card.Title style={{ fontWeight: '500', color: 'black',textAlign:'left' }}>Accelerated Lead Response</Card.Title>
@@ -59,9 +66,15 @@ const CaseStudies = () => {
                 border: '1px solid #e0e0e0',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.1)'
               }}>
-                <div style={{ backgroundColor: '#343a40', padding: '70px', color: 'white' }}>
+                 <Card.Img
+                  variant="top"
+                  src=""
+                  alt="Health Case Study"
+                  style={{ height: '250px', objectFit: 'cover',color:'black' }}
+                />
+                {/* <div style={{ backgroundColor: '#343a40', padding: '70px', color: 'white' }}>
                   <h5>Healthcare Case Study</h5>
-                </div>
+                </div> */}
                 <Card.Body>
                   <Badge bg="light" text="dark" className="mb-2" style={{marginRight:'350px'}}>Healthcare</Badge>
                   <Card.Title style={{ fontWeight: '500', color: 'black',textAlign:'left' }}>Patient Appointment Management</Card.Title>
@@ -89,9 +102,15 @@ const CaseStudies = () => {
                 border: '1px solid #e0e0e0',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.1)'
               }}>
-                <div style={{ backgroundColor: '#343a40', padding: '70px', color: 'white' }}>
+                 <Card.Img
+                  variant="top"
+                  src=""
+                  alt="Finance Case Study"
+                  style={{ height: '250px', objectFit: 'cover',color:'black' }}
+                />
+                {/* <div style={{ backgroundColor: '#343a40', padding: '70px', color: 'white' }}>
                   <h5>Finance Case Study</h5>
-                </div>
+                </div> */}
                 <Card.Body>
                   <Badge bg="light" text="dark" className="mb-2" style={{marginRight:'350px'}}>Finance</Badge>
                   <Card.Title style={{ fontWeight: '500', color: 'black',textAlign:'left' }}>24/7 Customer Support</Card.Title>
