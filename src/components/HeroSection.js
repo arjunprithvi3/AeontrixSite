@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Spline from '@splinetool/react-spline';
-import PentagonBox from './PentagonBox';
+
 
 const HeroSection = () => {
   useEffect(() => {
@@ -10,8 +10,6 @@ const HeroSection = () => {
     const context = canvas.getContext('2d');
     const section = document.getElementById('main');
     if (!section) return;
-
-    // Set canvas size to match the section size
     const sectionRect = section.getBoundingClientRect();
     canvas.width = sectionRect.width;
     canvas.height = sectionRect.height;
@@ -62,43 +60,51 @@ const HeroSection = () => {
     };
   }, []);
 
-  return (
-    <section id="main" className="section main-section" style={{ 
+ return (
+  <section
+    id="main"
+    className="section main-section"
+    style={{
       backgroundColor: '#000',
       boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
-      
       position: 'relative',
       overflow: 'hidden',
-      minHeight: '100vh'
-    }}>
-      {/* Matrix background - only for this section */}
-      <div className="matrix-container" style={{
-        position: 'fixed',
+      minHeight: '100vh',
+    }}
+  >
+    {/* Matrix background - only for this section */}
+    <div
+      className="matrix-container"
+      style={{
+        position: 'absolute',
         top: 0,
         left: 0,
         width: '100%',
         height: '100%',
         zIndex: 1,
-        pointerEvents: 'none'
-      }}>
-        <canvas id="Matrix" />
-      </div>
-      
-      <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-        <div className="hero-content">
-          {/* <div className="hero-buttons">
-            <button className="btn btn-primary" onClick={() => scrollToSection('business')}>Learn More</button>
-            <button className="btn btn-secondary" onClick={() => scrollToSection('contact')}>Get Started</button>
-          </div> */}
+        pointerEvents: 'none',
+      }}
+    >
+      <canvas id="Matrix" />
+    </div>
+
+    <div className="container" style={{ position: 'relative', zIndex: 2 }}>
+      {/* Hero Content Placeholder */}
+      <div className="hero-content">
+        <div className="hero-buttons">
+          {/* <button className="btn btn-primary" onClick={() => scrollToSection('business')}>Learn More</button>
+          <button className="btn btn-secondary" onClick={() => scrollToSection('contact')}>Get Started</button> */}
         </div>
-        <div className="hero-image">
-          <Spline scene="https://prod.spline.design/yhZulGyMmjAYLMdG/scene.splinecode" />
-        </div>
-        
-       
+      </div> 
+
+      {/* Hero Image Placeholder */}
+       <div className="hero-image">
+        <Spline scene="https://prod.spline.design/yhZulGyMmjAYLMdG/scene.splinecode" />
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
+
 };
 
 export default HeroSection; 

@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 const CaseStudies = () => {
   const navigate = useNavigate();
 
-  const handleNavigate = (path) => {
-    navigate(path);
+  const handleNavigateToAllCaseStudies = () => {
+    navigate('/all-case-studies');
   };
 
   return (
@@ -40,7 +40,7 @@ const CaseStudies = () => {
                   <p style={{ marginBottom: '12px', color: '#6c757d' }}><strong>Outcome:</strong> +68% conversion rate</p> */}
                   <span
                     role="button"
-                    onClick={() => handleNavigate('/case-studies/retail')}
+                    onClick={handleNavigateToAllCaseStudies}
                     style={{ color: '#0d6efd', cursor: 'pointer', fontWeight: '500',textAlign:'left',display:'block' }}
                   >
                     Read full case study →
@@ -70,7 +70,7 @@ const CaseStudies = () => {
                   <p style={{ marginBottom: '12px', color: '#6c757d' }}><strong>Outcome:</strong> 42% reduction in no-shows</p> */}
                   <span
                     role="button"
-                    onClick={() => handleNavigate('/case-studies/healthcare')}
+                    onClick={handleNavigateToAllCaseStudies}
                     style={{ color: '#0d6efd', cursor: 'pointer', fontWeight: '500',textAlign:'left',display:'block' }}
                   >
                     Read full case study →
@@ -100,7 +100,7 @@ const CaseStudies = () => {
                   <p style={{ marginBottom: '12px', color: '#6c757d' }}><strong>Outcome:</strong> 93% resolution rate, 24/7 availability</p> */}
                   <span
                     role="button"
-                    onClick={() => handleNavigate('/case-studies/finance')}
+                    onClick={handleNavigateToAllCaseStudies}
                     style={{ color: '#0d6efd', cursor: 'pointer', fontWeight: '500',textAlign:'left',display:'block' }}
                   >
                     Read full case study →

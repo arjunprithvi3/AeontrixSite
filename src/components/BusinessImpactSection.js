@@ -5,7 +5,7 @@ import { FaChartLine, FaBullseye, FaCoins } from 'react-icons/fa';
 const BusinessImpactSection = () => {
   return (
     <section id="business" className="section content-section py-5">
-      <div style={{ backgroundColor: '#f5f5f5', padding: '50px 0' }}>
+      <div style={{ backgroundColor: '#f5f5f5', padding: '24px 0' }}>
         <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', maxWidth:'1350px' }}>
           <h2 className="text-center mb-3">The Business Impacts of AI</h2>
           <p className="text-center mb-5">Transforming operations with unprecedented efficiency, productivity and cost-effectiveness</p>
@@ -105,7 +105,7 @@ const BusinessImpactSection = () => {
         </Container>
       </div>
 
-      <div style={{ backgroundColor: '#f5f5f5', padding: '50px 0' }}>
+      <div style={{ backgroundColor: '#f5f5f5', padding: '24px 0' }}>
         <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1350px' }}>
           <h3 className="mb-4">Employee Performance Comparison</h3><br></br>
           <div className="d-flex justify-content-center">

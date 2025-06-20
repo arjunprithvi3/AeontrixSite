@@ -32,7 +32,7 @@ function AIImplementationTimeline() {
     <section
       id="ai-timeline"
       className="section content-section">
-      <div style={{ backgroundColor: '#f5f5f5', padding: '50px 0' }}>
+      <div style={{ backgroundColor: '#f5f5f5', padding: '24px 0' }}>
         <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1350px',height:'100%' }}>
           <h3 className="text-center mb-4" style={{marginRight:'700px'}}>AI Implementation Timeline</h3>
          <br></br><br></br>
@@ -87,7 +87,7 @@ function AIImplementationTimeline() {
                           paddingLeft:'50px'
                         }}
                       >
-                       <h6 className="fw-bold mb-1" style={{ 
+                       <h6 className="fw mb-1" style={{ 
                          fontSize: '1rem', 
                          color:'black',
                          textAlign:'left',
@@ -115,7 +115,7 @@ function AIImplementationTimeline() {
                           
                         }}
                       >
-                        <h6 className="fw-bold mb-1" style={{ 
+                        <h6 className="fw  mb-1" style={{ 
                           fontSize: '1rem', 
                           textAlign:'right',
                           color:'black',

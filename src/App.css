@@ -1,4 +1,6 @@
 /* Matrix background - removed global fixed positioning */
+
+
 .matrix-container {
   position: fixed;
   top: 0;
@@ -76,7 +78,7 @@ canvas#Matrix {
 .content-section {
   background-color: #f5f5f5;
   color: black;
-  padding: 100px 20px;
+  padding: 40px 20px;
   text-align: center;
   min-height: 100vh;
   z-index: 1;
@@ -105,8 +107,7 @@ canvas#Matrix {
 }
 
 .section {
-  padding: 60px 0;
-  
+  padding: 30px 0;
 }
 
 /* Bootstrap Container and Row fixes */

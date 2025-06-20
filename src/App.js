@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import BusinessImpactSection from './components/BusinessImpactSection';
@@ -7,9 +8,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import GenerateAI from './components/GeneratAI';
 import AIImplementationTimeline from './components/AIImplementationTimeline';
 import CaseStudies from './components/CaseStudies';
+import AllCaseStudies from './components/AllCaseStudies';
+import YoutubeVideos from './components/YoutubeVideos';
+import BlogSection from './components/BlogSection';
+import AllBlogs from './components/AllBlogs';
+import BlogDetails from './components/BlogDetails';
 
-function App() {
+// Main page component
+const MainPage = () => {
   const [activeSection, setActiveSection] = useState('main');
+  const location = useLocation();
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -18,6 +26,15 @@ function App() {
       setActiveSection(sectionId);
     }
   };
+
+  useEffect(() => {
+    // Handle scroll-to-section when navigating back from case studies
+    if (location.state?.scrollTo) {
+      setTimeout(() => {
+        scrollToSection(location.state.scrollTo);
+      }, 100);
+    }
+  }, [location.state]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,7 +72,20 @@ function App() {
       <GenerateAI/>
       <AIImplementationTimeline/>
       <CaseStudies/>
+      <YoutubeVideos/>
+      <BlogSection/>
     </div>
+  );
+};
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/all-case-studies" element={<AllCaseStudies />} />
+      <Route path="/all-blogs" element={<AllBlogs />} />
+      <Route path="/blog/:id" element={<BlogDetails />} />
+    </Routes>
   );
 }
 

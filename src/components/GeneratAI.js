@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 
@@ -9,7 +7,7 @@ function GenerateAI()  {
       id="services"
       className="section content-section"
       style={{ backgroundColor: '#f5f5f5' }}>
-    <div style={{ backgroundColor: '#f5f5f5', padding: '50px 0' }}>
+    <div style={{ backgroundColor: '#f5f5f5', padding: '24px 0' }}>
       <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1350px' }}>
         <h2 className="text-center mb-3">Begin Your AI Transformation Journey</h2>
         <p className="text-center mb-4 text-muted">
