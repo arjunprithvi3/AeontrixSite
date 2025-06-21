@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
+import { FaLightbulb } from "react-icons/fa";
 
 function GenerateAI()  {
   return (
@@ -34,18 +35,18 @@ function GenerateAI()  {
           </Col>
 
           <Col md={4}>
-            <div className="mb-3" style={{paddingRight:'10s5px',paddingTop:'30px'}}><strong>Prompt suggestions:</strong></div>
+            <div className="mb-3" style={{paddingRight:'105px',paddingTop:'30px'}}><strong>Prompt suggestions:</strong></div>
            <ul className="list-unstyled text-muted" style={{ paddingRight: '100px', fontSize: '15px',textAlign:'left' }}>
               <li className="d-flex align-items-start mb-2">
-                <span style={{ width: '45px',color:'black'}}>💡</span>
+                <span style={{ width: '45px',color:'black'}}><FaLightbulb/></span>
                 <span>Replace our sales team with AI that can handle international clients</span>
               </li>
               <li className="d-flex align-items-start mb-2">
-                <span style={{ width: '45px' }}>💡</span>
+                <span style={{ width: '45px',color:'black' }}><FaLightbulb/></span>
                 <span>Create AI marketing specialists that can generate content in multiple languages</span>
               </li>
               <li className="d-flex align-items-start mb-2">
-                <span style={{ width: '45px' }}>💡</span>
+                <span style={{ width: '45px',color:'black' }}><FaLightbulb/></span>
                 <span>Build an AI HR department that handles recruitment and onboarding</span>
               </li>
             </ul>
