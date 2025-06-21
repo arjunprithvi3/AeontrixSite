@@ -48,18 +48,18 @@ const plans = [
 const PricingSection = () => {
   return (
     <section style={{ 
-      background: 'linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)', 
+      background: '#f5f5f5', 
       padding: '100px 0',
       position: 'relative'
     }}>
-      {/* Background decorative elements */}
+    
       <div style={{
         position: 'absolute',
         top: '20px',
         left: '20px',
         width: '100px',
         height: '100px',
-        background: 'linear-gradient(45deg, #00FF93, #00D4FF)',
+       
         borderRadius: '50%',
         opacity: '0.1',
         filter: 'blur(20px)'
@@ -89,7 +89,7 @@ const PricingSection = () => {
           <div style={{
             display: 'inline-block',
             padding: '8px 24px',
-            background: 'linear-gradient(135deg, #00FF93, #00D4FF)',
+           
             borderRadius: '50px',
             marginBottom: '20px'
           }}>
