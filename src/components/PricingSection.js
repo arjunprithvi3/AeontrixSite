@@ -21,8 +21,8 @@ const PricingSection = () => {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.06)';
               }}>
               <div className="card-body d-flex flex-column align-items-center">
-                <h5 className="card-title mb-5" style={{ fontSize: '1.3rem', color: '#555',textAlign:'left' }}>Consultation - AI Advisor</h5>
-               
+                <h5 className="fw-bold mb-5" style={{ fontSize: '1.3rem', color: '#555',textAlign:'left' }}>Consultation - AI Advisor</h5>
+              
                 <h2 className="fw-bold mb-3"><span className="fs-6"></span></h2>
                 <Button 
                   variant="outline-dark" 
@@ -64,7 +64,7 @@ const PricingSection = () => {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.06)';
                }}>
               <div className="card-body d-flex flex-column align-items-center text-white">
-                <h5 className="card-title fw-bold mb-5"  style={{ fontSize: '1.3rem', color: '#555',textAlign:'left' }}>Done & Built For You</h5>
+                <h5 className="fw-bold mb-5"  style={{ fontSize: '1.3rem', color: '#555',textAlign:'left' }}>Done & Built For You</h5>
                
                 <h2 className="fw-bold mb-3"><span className="fs-6"></span></h2>
                 <Button 
@@ -107,7 +107,7 @@ const PricingSection = () => {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.06)';
                }}>
               <div className="card-body d-flex flex-column align-items-center">
-                <h5 className="card-title fw-bold mb-5"  style={{ fontSize: '1.2rem', color: '#555',textAlign:'left' }}>AI Partner (All your AI needs)</h5>
+                <h5 className="fw-bold mb-5"  style={{ fontSize: '1.2rem', color: '#555',textAlign:'left' }}>AI Partner (All your AI needs)</h5>
                
                 <h2 className="fw-bold mb-3"></h2>
                 <Button 
