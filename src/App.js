@@ -13,6 +13,8 @@ import YoutubeVideos from './components/YoutubeVideos';
 import BlogSection from './components/BlogSection';
 import AllBlogs from './components/AllBlogs';
 import BlogDetails from './components/BlogDetails';
+import Contact from './components/Contact';
+import PricingSection from './components/PricingSection';
 
 // Main page component
 const MainPage = () => {
@@ -61,19 +63,19 @@ const MainPage = () => {
 
   return (
     <div className="app">
-      {/* Hero Section with Matrix Rain and Spline Robot */}
+     
       <HeroSection />
-      {/* Business Impact Section */}
       <BusinessImpactSection />
-
-      {/* Services Section */}
       <ServicesSection />
-
       <GenerateAI/>
       <AIImplementationTimeline/>
       <CaseStudies/>
       <YoutubeVideos/>
       <BlogSection/>
+      
+      <Contact/>
+      <PricingSection/>
+
     </div>
   );
 };
