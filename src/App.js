@@ -15,6 +15,7 @@ import AllBlogs from './components/AllBlogs';
 import BlogDetails from './components/BlogDetails';
 import Contact from './components/Contact';
 import PricingSection from './components/PricingSection';
+import Footer from './components/Footer';
 
 // Main page component
 const MainPage = () => {
@@ -75,6 +76,8 @@ const MainPage = () => {
       
       <Contact/>
       <PricingSection/>
+
+      <Footer/>
 
     </div>
   );
