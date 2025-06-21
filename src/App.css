@@ -1,4 +1,3 @@
-/* Matrix background - removed global fixed positioning */
 
 
 .matrix-container {
@@ -18,7 +17,7 @@ canvas#Matrix {
   background-color: transparent;
 }
 
-/* Main hero section */
+
 .main-section {
   position: relative;
   z-index: 1;
@@ -74,7 +73,7 @@ canvas#Matrix {
   border: 2px solid white;
 }
 
-/* Continuous content sections */
+
 .content-section {
   background-color: #f5f5f5;
   color: black;
@@ -110,7 +109,7 @@ canvas#Matrix {
   padding: 30px 0;
 }
 
-/* Bootstrap Container and Row fixes */
+
 .content-section .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -132,22 +131,15 @@ canvas#Matrix {
   padding-left: 15px;
 }
 
-/* Custom styles for React Bootstrap cards */
+
 .card {
   background-color: rgba(255, 255, 255, 255) !important;
-  /* border: 1px solid #00ff00 !important; */
   color: white !important;
-  /* transition: all 0.3s ease; */
   backdrop-filter: blur(10px);
   height: 100%;
   box-shadow: '0 4px 20px rgba(0,0,0,0.1)';
 }
 
-/* .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 255, 0, 0.3) !important;
-  border-color: #00ff00 !important;
-} */
 
 .card-title {
   color: black!important;
@@ -169,7 +161,7 @@ canvas#Matrix {
   color: #888888 !important;
 }
 
-/* Responsive adjustments for cards */
+
 @media (max-width: 768px) {
   .hero-image {
     width: 100%;
@@ -200,12 +192,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Ensure all headings use Poppins */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Ensure all paragraphs and text elements use Poppins */
 p, span, div, a, button, input, textarea, select {
   font-family: 'Poppins', sans-serif;
 }
@@ -231,10 +222,6 @@ p, span, div, a, button, input, textarea, select {
 
 #services p{
   margin-top: -15px;
-  
-}
-
-#business .container{
   
 }
 
