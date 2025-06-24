@@ -5,9 +5,9 @@ import 'react-phone-input-2/lib/style.css';
 
 function Contact() {
   return (
-    <div
+    <div className="content-section grid-background"
       style={{
-        backgroundColor: "#f5f6fa",
+       
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
@@ -15,13 +15,12 @@ function Contact() {
         padding: "40px"
       }}
     >
-      <div
+      <div className="content-box highlighted-box"
         style={{
-          backgroundColor: "#ffffff",
           borderRadius: "12px",
           boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
           width: "100%",
-          maxWidth: "1350px",
+          maxWidth: "1200px",
           padding: "40px",
           height:'150%'
         }}

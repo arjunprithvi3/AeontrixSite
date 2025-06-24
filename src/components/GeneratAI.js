@@ -7,8 +7,8 @@ function GenerateAI()  {
      <section
       id="services"
       className="section content-section grid-background">
-    <div style={{ padding: '24px 0' }}>
-      <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1350px' }}>
+    <div className='grid-background' style={{ padding: '24px 0' }}>
+      <Container  className='content-box highlighted-box' style={{ padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1200px' }}>
         <h2 className="text-center mb-3">Begin Your AI Transformation Journey</h2>
         <p className="text-center mb-4 text-muted">
           Take the first step toward a more efficient, cost-effective workforce. Tell us what you want to achieve with AI employees.

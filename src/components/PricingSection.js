@@ -47,10 +47,9 @@ const plans = [
 
 const PricingSection = () => {
   return (
-    <section style={{ 
-      background: '#f5f5f5', 
+    <section className='content-section grid-background' style={{ 
       padding: '100px 0',
-      position: 'relative'
+      position: 'relative',
     }}>
     
       <div style={{
@@ -70,13 +69,13 @@ const PricingSection = () => {
         right: '20px',
         width: '150px',
         height: '150px',
-        background: 'linear-gradient(45deg, #FF6B6B, #4ECDC4)',
+       
         borderRadius: '50%',
         opacity: '0.1',
         filter: 'blur(25px)'
       }}></div>
 
-      <Container style={{ backgroundColor: 'rgba(255, 255, 255, 0.95)', padding: '60px 40px', borderRadius: '24px', boxShadow: '0 20px 60px rgba(0,0,0,0.08), 0 8px 32px rgba(0,0,0,0.04)', maxWidth: '1400px', backdropFilter: 'blur(10px)', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+      <Container className='content-box highlighted-box'  style={{ padding: '60px 40px', borderRadius: '24px', boxShadow: '0 20px 60px rgba(0,0,0,0.08), 0 8px 32px rgba(0,0,0,0.04)', maxWidth: '1200px', backdropFilter: 'blur(10px)', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
         <div className="text-center mb-5">
           <div style={{
             display: 'inline-block',

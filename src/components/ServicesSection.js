@@ -13,10 +13,9 @@ const ServicesSection = () => {
   return (
     <section
       id="services"
-      className="section content-section"
-    >
-      <div style={{ backgroundColor: '#f5f5f5', padding: '24px 0' }}>
-        <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1350px' }}>
+      className="section content-section grid-background">
+      <div style={{    padding: '24px 0' }}>
+        <Container className='content-box highlighted-box' style={{ padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1200px' }}>
          
           <h1>List of AI Employees</h1>
           <p>Feature Comparison</p>

@@ -6,7 +6,7 @@ const BusinessImpactSection = () => {
   return (
     <section id="business" className="section py-5 content-section grid-background">
       <div className='grid-background' style={{ padding: '24px 0' }}>
-        <Container className='content-box highlighted-box' style={{ backgroundColor: '', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', maxWidth:'1350px' }}>
+        <Container className='content-box highlighted-box' style={{ backgroundColor: '', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', maxWidth:'1200px' }}>
           <h2 className="text-center text-seasalt mb-3">The Business Impacts of AI</h2>
           <p className="text-center text-seasalt mb-5">Transforming operations with unprecedented efficiency, productivity and cost-effectiveness</p>
           

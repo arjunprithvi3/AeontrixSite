@@ -10,9 +10,9 @@ const CaseStudies = () => {
   };
 
   return (
-    <section id="case-studies" className="section content-section py-5">
-      <div style={{ backgroundColor: '#f5f5f5', padding: '50px 0' }}>
-        <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', maxWidth:'1350px' }}>
+    <section id="case-studies" className="section py-5 content-section grid-background">
+      <div className='grid-background' style={{ padding: '50px 0' }}>
+        <Container className='content-box highlighted-box' style={{ padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)', maxWidth:'1200px' }}>
           <h3 className="text-center mb-4">Case Studies</h3>
           <p className="text-center mb-5 text-muted" style={{ fontSize: '0.95rem' }}>
             Real-world examples of AI transformation across industries

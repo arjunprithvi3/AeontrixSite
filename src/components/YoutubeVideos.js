@@ -24,8 +24,8 @@ function YoutubeVideos() {
   const [currentVideo, setCurrentVideo] = useState(videoData[0]);
 
   return (
-    <div style={{ backgroundColor: '#f5f5f5', padding: '8px', fontFamily: 'Poppins, sans-serif' }}>
-      <Container className="py-4" style={{ backgroundColor: 'white', borderRadius: '16px', boxShadow: '0 4px 20px rgba(0,0,0,0.10)', maxWidth:'1350px' }}>
+    <div className="grid-background" style={{ padding: '25px', fontFamily: 'Poppins, sans-serif' }}>
+      <Container className="py-4 content-box highlighted-box " style={{ borderRadius: '16px', boxShadow: '0 4px 20px rgba(0,0,0,0.10)', maxWidth:'1200px' }}>
         <h4 className="fw mb-4 " >Live Robot Demonstrations</h4>
        
 

@@ -31,9 +31,9 @@ function AIImplementationTimeline() {
   return (
     <section
       id="ai-timeline"
-      className="section content-section">
-      <div style={{ backgroundColor: '#f5f5f5', padding: '24px 0' }}>
-        <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1350px',height:'100%' }}>
+      className="section content-section grid-background">
+      <div className='grid-background' style={{ padding: '24px 0' }}>
+        <Container className='content-box highlighted-box' style={{ padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)',maxWidth:'1200px',height:'100%' }}>
           <h3 className="text-center mb-4" style={{marginRight:'700px'}}>AI Implementation Timeline</h3>
          <br></br><br></br>
           {[0, 1, 2, 3].map((index) => {
@@ -105,7 +105,7 @@ function AIImplementationTimeline() {
                       <div
                         style={{
                           position: 'relative',
-                          right:'530px',
+                          right:'470px',
                           top: '50%',
                           transform: 'translateY(-75%)',
                           fontSize: '0.8rem',

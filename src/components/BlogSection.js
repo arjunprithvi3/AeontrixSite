@@ -41,9 +41,9 @@ const BlogSection = () => {
   };
 
   return (
-    <section id="blog-section" className="bg-[#f5f5f5] py-8 font-[Poppins]">
-      <div style={{ backgroundColor: '#f5f5f5', padding: '100px 0' }}>
-      <Container style={{ backgroundColor: 'white', padding: '40px', borderRadius: '12px', boxShadow: '0 8px 32px rgba(0,0,0,0.12)', maxWidth:'1350px' }}>
+    <section id="blog-section" className="bg-[#f5f5f5] py-8 font-[Poppins] grid-background">
+      <div className='grid-background' style={{  padding: '100px 0' }}>
+      <Container className="content-box highlighted-box" style={{ padding: '40px', borderRadius: '12px', boxShadow: '0 8px 32px rgba(0,0,0,0.12)', maxWidth:'1200px' }}>
         <h3 className="text-center mb-4 font-bold">Latest Blog Articles</h3>
         <Row className="g-4">
           {blogData.map((blog) => (
